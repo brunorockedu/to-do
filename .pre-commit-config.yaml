@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: make-lint
+        name: Execute lint via Makefile
+        entry: make lint
+        language: system
+        types: [file]
