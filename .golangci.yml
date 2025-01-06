@@ -1,0 +1,13 @@
+linters:
+  enable:
+    - revive
+    - staticcheck
+    - errcheck
+    - unused
+    - cyclop
+    - govet
+    - ineffassign
+    - gocritic
+    
+run:
+  timeout: 5m
